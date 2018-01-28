@@ -1,0 +1,60 @@
+$screen-sm-min:     768px;
+$gold:         #F4C57D;
+$dark-red:     #8A0707;
+$light-grey:   #E7E7E7;
+
+#presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('https://storage.googleapis.com/jendigitalvision/commun/background.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: center;
+
+    #logo {
+        width: 300px;
+    }
+
+    a {
+        color: white;
+    }
+
+    a:hover, a:focus {
+        text-decoration: none;
+        color: $gold;
+    }
+
+    #content {
+        background-color: $light-grey;
+        border-radius: 175px;
+        height: 350px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 300px;
+        }
+    }
+
+    #menu {
+        display: flex;
+        margin-top: 30px;
+
+        a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 25px;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
