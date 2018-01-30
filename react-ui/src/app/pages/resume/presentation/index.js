@@ -3,7 +3,7 @@ import MainLayout from '../../../layouts/default';
 
 import './index.css';
 
-class Presentation extends Component {
+export default class Presentation extends Component {
     constructor(props) {
         super(props);
     }
@@ -12,27 +12,27 @@ class Presentation extends Component {
         return (
             <MainLayout>
                 <div id="presentation">
-                    <div id="content">
-                        <img id='logo' alt='Jen Digital Vision & Co' src='https://storage.googleapis.com/jendigitalvision/commun/logo.png' />
+                    <div className="content">
+                        <img className='logo' alt='Jen Digital Vision &#38; Co' src='https://storage.googleapis.com/jendigitalvision/commun/logo.png' />
                     </div>
                     <div id="menu">
-                        <a id="news" href='/actualities' rel="noopener noreferrer">
+                        <a id="actuality_button" href='/actuality' rel="noopener noreferrer">
                             <img src='https://storage.googleapis.com/jendigitalvision/commun/logo/innovation.png' />
                             Actualités
                         </a>
-                        <a id="ambitions" href='/ambitions' rel="noopener noreferrer">
+                        <a id="ambitions_button" href='/ambitions' rel="noopener noreferrer">
                             <img src='https://storage.googleapis.com/jendigitalvision/commun/logo/ambition.png' />
                             Ambitions
                         </a>
-                        <a id="contact" href='/contactme' rel="noopener noreferrer">
+                        <a id="contact_button" href='/contact' rel="noopener noreferrer">
                             <img src='https://storage.googleapis.com/jendigitalvision/commun/logo/contact.png' />
                             Contactez-moi
                         </a>
-                        <a id="missions" href='/missions' rel="noopener noreferrer">
+                        <a id="missions_button" href='/missions' rel="noopener noreferrer">
                             <img src='https://storage.googleapis.com/jendigitalvision/commun/logo/missionsdone.png' />
                             Missions
                         </a>
-                        <a id="references" href='/references' rel="noopener noreferrer">
+                        <a id="references_button" href='/references' rel="noopener noreferrer">
                             <img src='https://storage.googleapis.com/jendigitalvision/commun/logo/evaluation.png' />
                             References
                         </a>
@@ -40,12 +40,12 @@ class Presentation extends Component {
                             <img alt='English' src='https://storage.googleapis.com/jendigitalvision/commun/usa.png' />
                             English
                         </a>
-                        <a id="company" href='/digitalvisionandco' rel="noopener noreferrer">
-                            <img src='https://storage.googleapis.com/jendigitalvision/commun/logo/company.png' />
+                        <a id="company_button" href='/company' rel="noopener noreferrer">
+                            <img alt='Digital Vision &#38; Co' src='https://storage.googleapis.com/jendigitalvision/commun/logo/company.png' />
                             Digital Vision &#38; Co
                         </a>
-                        <a className='responsive'>
-                            <img alt='Digital Vision & Co' src='https://storage.googleapis.com/jendigitalvision/commun/logo/respdesign.png' />
+                        <a className='responsive_button' href='/technology'>
+                            <img alt='Portfolio' src='https://storage.googleapis.com/jendigitalvision/commun/logo/respdesign.png' />
                             Portfolio
                         </a>
                     </div>
@@ -54,5 +54,3 @@ class Presentation extends Component {
         )
     }
 }
-
-export default Presentation;

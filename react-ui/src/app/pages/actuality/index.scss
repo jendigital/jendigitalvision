@@ -1,0 +1,54 @@
+$screen-sm-min:     768px;
+$gold:         #F4C57D;
+$dark-red:     #8A0707;
+$light-grey:   #E7E7E7;
+
+#actuality {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://storage.googleapis.com/jendigitalvision/commun/city.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: center;
+
+    .content {
+        width: 100%;
+        text-align: center;
+
+        .logo {
+            width: 300px;
+        }
+    
+        .news {
+            width: 90%;
+            height: auto;
+            background-color: white;
+            margin: auto;
+            margin-top: 20px;
+            padding: 40px;
+            color: black;
+
+            h3{
+                margin: 0;
+
+                span {
+                    color: $gold;
+                }
+            }
+
+            .details {
+                margin-top: 30px;
+
+                p{
+                    text-align: left;
+
+                    span {
+                        font-weight: bold;
+                    }
+                }
+            } 
+        }
+    }
+
+}
