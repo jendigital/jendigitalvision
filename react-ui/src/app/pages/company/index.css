@@ -1,0 +1,25 @@
+#company {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: purple;
+  background-size: 100vw 100vh;
+  color: white; }
+  #company .content {
+    width: 100%;
+    text-align: center; }
+    #company .content .logo {
+      width: 300px; }
+    #company .content #company_presentation {
+      background-color: white;
+      color: purple; }
+      #company .content #company_presentation h1 {
+        color: black;
+        padding-top: 30px; }
+      #company .content #company_presentation .details {
+        margin: auto;
+        margin-top: 20px;
+        padding: 40px;
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap; }
