@@ -1,0 +1,39 @@
+#tech {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: purple;
+  background-size: 100vw 100vh;
+  color: white; }
+  #tech .content {
+    width: 100%;
+    text-align: center; }
+    #tech .content .logo {
+      width: 300px; }
+    #tech .content #stacks {
+      background-color: white;
+      color: purple; }
+      #tech .content #stacks h1 {
+        color: black;
+        padding-top: 30px; }
+      #tech .content #stacks .details {
+        margin: auto;
+        margin-top: 20px;
+        padding: 40px;
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap; }
+        #tech .content #stacks .details .hardskills {
+          width: 30%;
+          height: auto;
+          background-color: purple;
+          margin: 20px;
+          padding: 30px;
+          font-size: 20px;
+          color: white; }
+          #tech .content #stacks .details .hardskills h2 {
+            color: #F4C57D;
+            margin-top: 0; }
+          #tech .content #stacks .details .hardskills p {
+            margin-top: 30px;
+            text-align: left; }
