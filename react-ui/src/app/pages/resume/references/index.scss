@@ -1,12 +1,14 @@
 $screen-sm-min:     768px;
 $gold:         #F4C57D;
 $light-grey:   #E7E7E7;
+$pink:         #931675;
+$purple:       #2F0A57;
 
 #references {
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-color: purple;
+    background-color: $purple;
     background-size: 100vw 100vh;
     color: white;
 
@@ -14,6 +16,11 @@ $light-grey:   #E7E7E7;
         width: 100%;
         text-align: center;
         
+        .back {
+            position: absolute;
+            left: 70px;
+            top: 100px;
+        }
 
         .logo {
             width: 300px;
@@ -21,7 +28,7 @@ $light-grey:   #E7E7E7;
 
         #ref_description {
             background-color: white;
-            color: purple;
+            color: $pink;
 
             h1 {
                 color: black;
@@ -39,15 +46,16 @@ $light-grey:   #E7E7E7;
                 .ref {
                     width: 30%;
                     height: auto;
-                    background-color: purple;
+                    background-color: $pink;
                     margin: 20px;
                     padding: 30px;
-                    font-size: 20px;
+                    font-size: 16px;
                     color: white;
 
-                    h2 {
+                    h4 {
                         color: $gold;
                         margin-top: 0;
+                        font-size: 15px;
                     }
 
                     p{

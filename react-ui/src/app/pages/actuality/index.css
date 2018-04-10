@@ -9,6 +9,10 @@
   #actuality .content {
     width: 100%;
     text-align: center; }
+    #actuality .content .back {
+      position: absolute;
+      left: 70px;
+      top: 100px; }
     #actuality .content .logo {
       width: 300px; }
     #actuality .content .news {

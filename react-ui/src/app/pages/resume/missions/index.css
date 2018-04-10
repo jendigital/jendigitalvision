@@ -1,39 +1,68 @@
-#ambitions {
+#missions {
   display: flex;
   justify-content: center;
   height: 100vh;
-  background-color: purple;
+  background-color: #F5F5F5;
   background-size: 100vw 100vh;
   color: white; }
-  #ambitions .content {
+  #missions .content {
     width: 100%;
     text-align: center; }
-    #ambitions .content .logo {
+    #missions .content .back {
+      position: absolute;
+      left: 70px;
+      top: 100px; }
+    #missions .content .logo {
       width: 300px; }
-    #ambitions .content #way {
+    #missions .content #title {
+      color: #F4C57D; }
+    #missions .content #subtitle {
+      color: purple; }
+    #missions .content #projects {
       background-color: white;
       color: purple; }
-      #ambitions .content #way h1 {
+      #missions .content #projects h1 {
         color: black;
         padding-top: 30px; }
-      #ambitions .content #way .details {
+      #missions .content #projects .theme {
         margin: auto;
         margin-top: 20px;
         padding: 40px;
         padding-top: 10px;
         display: flex;
         flex-wrap: wrap; }
-        #ambitions .content #way .details .how {
+        #missions .content #projects .theme .project {
           width: 30%;
           height: auto;
-          background-color: purple;
+          background-color: #F5F5F5;
           margin: 20px;
           padding: 30px;
           font-size: 20px;
           color: white; }
-          #ambitions .content #way .details .how h2 {
+          #missions .content #projects .theme .project img {
+            max-width: 290px;
+            min-width: 150px;
+            height: 250px;
+            overflow: hidden; }
+            #missions .content #projects .theme .project img.github {
+              margin-top: 20px;
+              width: 150px;
+              height: 50px; }
+          #missions .content #projects .theme .project h3 {
+            color: purple; }
+          #missions .content #projects .theme .project h4 {
             color: #F4C57D;
-            margin-top: 0; }
-          #ambitions .content #way .details .how p {
+            margin-top: 0;
+            margin-bottom: 0; }
+            #missions .content #projects .theme .project h4.date {
+              margin-top: 20px;
+              color: black; }
+          #missions .content #projects .theme .project .stack {
+            font-size: 16px;
+            color: #545454; }
+          #missions .content #projects .theme .project p {
             margin-top: 30px;
-            text-align: left; }
+            text-align: left;
+            color: purple; }
+          #missions .content #projects .theme .project #lpn {
+            margin-bottom: 10px; }

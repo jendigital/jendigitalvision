@@ -3,7 +3,7 @@ Jen Digital Vision
 
 ## Resume
 
-![alt text](https://github.com/jendigital/jendigitalvision/blob/master/resume.png)
+![alt text](https://storage.googleapis.com/jendigitalvision/commun/Jendigital.png
 
 ## Heroku App
 

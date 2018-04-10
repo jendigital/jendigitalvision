@@ -14,16 +14,25 @@ $light-grey:   #E7E7E7;
         width: 100%;
         text-align: center;
         
+        .back {
+            position: absolute;
+            left: 70px;
+            top: 100px;
+        }
 
         .logo {
             width: 300px;
+        }
+
+        h3 {
+            color: $gold;
         }
 
         #company_presentation {
             background-color: white;
             color: purple;
 
-            h1 {
+            h3 {
                 color: black;
                 padding-top: 30px;
             }
@@ -35,6 +44,30 @@ $light-grey:   #E7E7E7;
                 padding-top: 10px;
                 display: flex;
                 flex-wrap: wrap;
+
+                p {
+                    text-align: left;
+                    font-size: 16px;
+                    color: black;
+                }
+
+                button {
+                    text-align: center;
+                    color: white;
+                    background-color: purple;
+                    padding: 10px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    border-radius: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 30px;
+                }
+
+                a {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
             }
         }
     }

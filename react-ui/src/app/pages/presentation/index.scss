@@ -29,13 +29,19 @@ $orange:       #FD8419;
     }
 
     .content {
-        background-color: $light-grey;
+        background-color: rgba(#FFFFFF, 0.7);
         border-radius: 175px;
         height: 350px;
         width: 350px;
         display: flex;
         justify-content: center;
         align-items: center;
+
+        .back {
+            position: absolute;
+            left: 70px;
+            top: 100px;
+        }
 
         img {
             width: 300px;
@@ -58,6 +64,10 @@ $orange:       #FD8419;
 
             &:last-child {
                 margin-right: 0;
+            }
+
+            &#english {
+                display: none;
             }
         }
 

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router'
 
-import Presentation from './pages/resume/presentation'
+import Presentation from './pages/presentation'
 import Actuality from './pages/actuality'
 import Ambitions from './pages/resume/ambitions'
 import Contact from './pages/contact'
-import Missions from './pages/resume/ambitions'
+import Missions from './pages/resume/missions'
 import References from './pages/resume/references'
 import Company from './pages/company'
 import Technology from './pages/resume/tech'

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Menu from '../components/commun/menu';
-import Footer from '../components/commun/footer';
 
 import './index.css'
 

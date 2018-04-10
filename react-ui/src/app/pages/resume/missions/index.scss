@@ -1,12 +1,13 @@
 $screen-sm-min:     768px;
 $gold:         #F4C57D;
-$light-grey:   #E7E7E7;
+$light-grey:   #F5F5F5;
+$dark-grey:    #545454;
 
-#ambitions {
+#missions {
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-color: purple;
+    background-color: $light-grey;
     background-size: 100vw 100vh;
     color: white;
 
@@ -14,12 +15,25 @@ $light-grey:   #E7E7E7;
         width: 100%;
         text-align: center;
         
+        .back {
+            position: absolute;
+            left: 70px;
+            top: 100px;
+        }
 
         .logo {
             width: 300px;
         }
 
-        #way {
+        #title {
+            color: $gold;
+        }
+
+        #subtitle {
+            color: purple;
+        }
+
+        #projects {
             background-color: white;
             color: purple;
 
@@ -28,7 +42,7 @@ $light-grey:   #E7E7E7;
                 padding-top: 30px;
             }
 
-            .details {
+            .theme {
                 margin: auto;
                 margin-top: 20px;
                 padding: 40px;
@@ -36,23 +50,56 @@ $light-grey:   #E7E7E7;
                 display: flex;
                 flex-wrap: wrap;
 
-                .how {
+                .project {
                     width: 30%;
                     height: auto;
-                    background-color: purple;
+                    background-color: $light-grey;
                     margin: 20px;
                     padding: 30px;
                     font-size: 20px;
                     color: white;
 
-                    h2 {
-                        color: $gold;
-                        margin-top: 0;
+                    img {
+                        max-width: 290px;
+                        min-width: 150px;
+                        height: 250px;
+                        overflow: hidden;
+
+                        &.github {
+                            margin-top: 20px;
+                            width: 150px;
+                            height: 50px;
+                        }
                     }
 
-                    p{
+                    h3 {
+                        color: purple;
+                    }
+
+                    h4 {
+                        color: $gold;
+                        margin-top: 0;
+                        margin-bottom: 0;
+
+                        &.date {
+                            margin-top: 20px;
+                            color: black;
+                        }
+                    }
+
+                    .stack {
+                        font-size: 16px;
+                        color: $dark-grey;
+                    }
+
+                    p {
                         margin-top: 30px;
                         text-align: left;
+                        color: purple;
+                    }
+
+                    #lpn {
+                        margin-bottom: 10px;
                     }
                 }
             }

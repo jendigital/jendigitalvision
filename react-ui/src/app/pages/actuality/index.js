@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import MainLayout from '../../layouts/default';
 
 import './index.css';
 
 export default class Actuality extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <MainLayout>
                 <div id="actuality">
                     <div className="content">
-                        <img className='logo' alt='Jen Digital Vision & Co' src='https://storage.googleapis.com/jendigitalvision/commun/logo-black-and-white.png' />
-                    
+                        <Link to='/'>
+                            <img className='back' alt='back' src='https://storage.googleapis.com/jendigitalvision/commun/back.png' />
+                            <img className='logo' alt='Jen Digital Vision &#38; Co' src='https://storage.googleapis.com/jendigitalvision/commun/logo-black-and-white.png' />
+                        </Link>
                         <div className='news'>
                             <span>Article 27/01/2018</span>
 
@@ -29,14 +29,14 @@ export default class Actuality extends Component {
                                 <p>
                                     Dans un monde de plus en plus virtuel, étant codeuse (synonyme de développeuse), donc capable de réaliser les <span>sites internets et applications</span> que
                                     tout le monde a dans son téléphone, sa tablette ou encore son ordinateur, ma volonté est de vous montrer mes réalisations à travers mon portfolio
-                                    ainsi que j'utilise les bonnes méthodes, que j'ai fais des choix technologiques réfléchis et surtout je ne reste jamais sur mes acquis en me réinventant tous les jours
+                                    ainsi le fait que j'utilise les bonnes méthodes, que je fais des choix technologiques réfléchis et surtout que je ne reste jamais sur mes acquis en me réinventant tous les jours
                                     tout en conservant les bonnes pratiques.
                                 </p>
 
                                 <p>
-                                    J'ai <span>commencé la programmation par passion à l'âge de 9 ans</span>. Donc j'ai pu suivre l'avancée des technologies en tout genre. Alors aujourd'hui, 
-                                    l'objectif est de <span>rester au top et de continuer de s'améliorer</span>. Mon ambition, que je détaillerais dans la page suivante, est de <span>contribuer à 
-                                    la digitalisation des services tout en conservant un caractère humain</span>.
+                                    J'ai <span>commencé la programmation par passion à l'âge de 9 ans</span> grâce à un grand frère de seize ans plus agés qui m'a initié quand il a vu que je commençais 
+                                    à devenir une geekette. Donc j'ai pu suivre l'avancée de technologies en tout genre. Alors aujourd'hui, l'objectif est de <span>rester au top et de continuer de s'améliorer</span>. 
+                                    Mon ambition, que je détaillerais dans la page suivante, est de <span>contribuer à la digitalisation des services tout en conservant un caractère humain</span>.
                                 </p>
 
                                 <p>

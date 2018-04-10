@@ -16,6 +16,12 @@ $light-grey:   #E7E7E7;
         width: 100%;
         text-align: center;
 
+        .back {
+           position: absolute;
+           left: 70px;
+           top: 100px;
+        }
+
         .logo {
             width: 300px;
         }

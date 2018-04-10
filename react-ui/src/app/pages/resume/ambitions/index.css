@@ -8,6 +8,10 @@
   #ambitions .content {
     width: 100%;
     text-align: center; }
+    #ambitions .content .back {
+      position: absolute;
+      left: 70px;
+      top: 100px; }
     #ambitions .content .logo {
       width: 300px; }
     #ambitions .content #way {
@@ -31,7 +35,7 @@
           padding: 30px;
           font-size: 20px;
           color: white; }
-          #ambitions .content #way .details .how h2 {
+          #ambitions .content #way .details .how h3 {
             color: #F4C57D;
             margin-top: 0; }
           #ambitions .content #way .details .how p {
